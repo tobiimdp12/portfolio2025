@@ -1,0 +1,26 @@
+{
+  // Opciones del compilador de TypeScript (o del resolver de VSCode si usás jsconfig)
+  "compilerOptions": {
+    // Define la carpeta base desde donde se calcularán las rutas relativas.
+    // En este caso, el punto significa "la raíz del proyecto".
+    "baseUrl": ".",
+
+    // Define alias para importar módulos sin usar rutas relativas largas.
+    "paths": {
+      // "#*" es un patrón de alias.
+      // El * significa: “cualquier cosa que venga después del #”.
+      //
+      // Esto hace que cuando en un import usás:
+      //    import Login from "#modules/Login"
+      //
+      // El sistema busque en:
+      //    src/modules/Login
+      //
+      // En resumen: todo lo que empiece con # apunta a la carpeta src/.
+      "#*": ["src/*"]
+    }
+  },
+
+  // Define qué carpetas incluye el proyecto para análisis y autocompletado.
+  "include": ["src"]
+}
