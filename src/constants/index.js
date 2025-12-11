@@ -49,8 +49,14 @@ const dockApps = [
     canOpen: true,
   },
   {
-    id: "photos",
-    name: "Gallery", // was "Photos"
+    id: "setting",
+    name: "Settings", // was "Photos"
+    icon: "config.png",
+    canOpen: true,
+  },
+    {
+    id: "photo",
+    name: "Certificates", // was "Photos"
     icon: "photos.png",
     canOpen: true,
   },
