@@ -42,12 +42,12 @@ const dockApps = [
     icon: "finder.png",
     canOpen: true,
   },
-  {
-    id: "safari",
-    name: "Articles", // was "Safari"
-    icon: "safari.png",
-    canOpen: true,
-  },
+  // {
+  //   id: "safari",
+  //   name: "Articles", // was "Safari"
+  //   icon: "safari.png",
+  //   canOpen: true,
+  // },
   {
     id: "setting",
     name: "Settings", // was "Photos"

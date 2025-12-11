@@ -1,5 +1,5 @@
-import { Navbar, Welcome, Dock } from "#components";
-import { Terminal } from "#windows";
+import { Navbar, Welcome, Dock, Finder } from "#components";
+import { Resume, Terminal, Text, Image, Contact } from "#windows";
 import React from "react";
 
 import gsap from "gsap";
@@ -13,7 +13,12 @@ const App = () => {
       <Welcome />
       <Dock />
 
-      <Terminal/>
+      <Terminal />
+      <Resume />
+      <Finder />
+      <Text />
+      <Image />
+      <Contact />
     </main>
   );
 };
